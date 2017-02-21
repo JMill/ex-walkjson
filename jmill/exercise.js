@@ -7,7 +7,7 @@ exercise.getCourseList = function(courseName) {
     var people = exercise.data.contacts;
     var person;
     // enter code to list each person that takes this course
-    return people;
+    return list;
 };
 // return list of hobbies
 exercise.getHobbies = function() {
