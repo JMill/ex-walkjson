@@ -9,7 +9,7 @@ exercise.getCourseList = function(courseName) {
     // enter code to list each person that takes this course
     for (var i = 0; i < dataLength; i++){
         person = people[i]
-        if (person.courses.includes('1.00')){
+        if (person.courses.includes(courseName)){
             list.push(person);
         }
     }
